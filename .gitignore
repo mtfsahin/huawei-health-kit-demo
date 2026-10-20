@@ -1,0 +1,16 @@
+build/
+.gradle/
+.kotlin/
+.idea/
+*.iml
+.DS_Store
+captures/
+*.apk
+*.aab
+
+local.properties
+keystore.properties
+*.jks
+*.keystore
+agconnect-services.json
+google-services.json

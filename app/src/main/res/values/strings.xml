@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Health Kit Demo</string>
+
+    <string name="tab_today">Today</string>
+    <string name="tab_workouts">Workouts</string>
+    <string name="tab_logs">Logs</string>
+
+    <string name="onboarding_title">Connect Huawei Health</string>
+    <string name="onboarding_text">This sample reads your health data from Huawei Health Kit Cloud after you allow it. You can cancel the access at any time.</string>
+    <string name="onboarding_reads">The app will read</string>
+    <string name="data_workouts">Workouts and their details</string>
+    <string name="data_activity">Steps, distance and activity goals</string>
+    <string name="data_calories">Calories</string>
+    <string name="data_heart_rate">Heart rate</string>
+    <string name="data_stress">Stress</string>
+    <string name="data_sleep">Sleep</string>
+    <string name="authorization_method">Sign-in method</string>
+    <string name="method_web_title">Web OAuth</string>
+    <string name="method_web_text">Signs in on a Huawei web page in a browser tab. Works on every Android phone.</string>
+    <string name="method_login_free_title">Login-free SDK</string>
+    <string name="method_login_free_text">Uses the HUAWEI ID already signed in on the phone. No password page when the user is signed in.</string>
+    <string name="connect">Connect Huawei Health</string>
+    <string name="waiting">Waiting for Huawei…</string>
+
+    <string name="connected_as">Connected · %1$s</string>
+    <string name="connected">Connected</string>
+    <string name="refresh">Refresh</string>
+    <string name="menu">More</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="delete_data">Delete this app\'s data</string>
+    <string name="open_huawei_health">Open Huawei Health</string>
+    <string name="privacy_off_title">Huawei Health is not sharing data</string>
+    <string name="privacy_off_text">Turn on HUAWEI Health Kit in Huawei Health under Me > Privacy management, with the same HUAWEI ID.</string>
+    <string name="privacy_off_solution">Open Huawei Health, allow sharing, then pull down to refresh.</string>
+
+    <string name="today_steps">Steps today</string>
+    <string name="steps_goal">%1$d%% of %2$s steps</string>
+    <string name="heart_rate">Heart rate</string>
+    <string name="stress">Stress</string>
+    <string name="unit_kcal">kcal</string>
+    <string name="unit_km">km</string>
+    <string name="unit_bpm">bpm</string>
+    <string name="unit_avg">avg</string>
+    <string name="unit_min">min</string>
+    <string name="unit_h">h</string>
+    <string name="heart_rate_resting">Resting %1$s bpm</string>
+    <string name="sleep_last_night">Last night</string>
+    <string name="sleep_window">%1$s to %2$s</string>
+    <string name="sleep_score">Score %1$d</string>
+    <string name="sleep_deep">Deep</string>
+    <string name="sleep_light">Light</string>
+    <string name="sleep_rem">REM</string>
+    <string name="sleep_awake">Awake</string>
+    <string name="steps_last_7_days">Steps, last 7 days</string>
+    <string name="activity_goals">Activity goals</string>
+    <string name="active_calories">Active calories</string>
+    <string name="exercise">Exercise</string>
+    <string name="active_hours">Active hours</string>
+    <string name="goal_value">%1$s / %2$s %3$s</string>
+    <string name="range">Min %1$s · Max %2$s</string>
+    <string name="data_access">Data access</string>
+    <string name="data_access_text">Each row is one Health Kit read. A red row shows the error code from the catalog; the Logs tab has the full answer.</string>
+    <string name="no_data">No data</string>
+
+    <string name="range_week">7 d</string>
+    <string name="range_month">30 d</string>
+    <string name="range_quarter">90 d</string>
+    <string name="range_year">1 y</string>
+    <plurals name="workout_count">
+        <item quantity="one">%1$d workout</item>
+        <item quantity="other">%1$d workouts</item>
+    </plurals>
+    <string name="no_workouts">No workouts in this range.</string>
+    <string name="minutes">%1$d min</string>
+
+    <string name="log_all">All</string>
+    <string name="log_copy">Copy log</string>
+    <string name="log_share">Share log</string>
+    <string name="log_clear">Clear log</string>
+    <string name="log_empty">Nothing logged yet.</string>
+    <string name="log_copied">Log copied</string>
+
+    <string name="error_solution">What to do: %1$s</string>
+    <string name="error_docs">Documentation</string>
+    <string name="error_dismiss">Dismiss</string>
+
+    <string name="delete_title">Delete this app\'s data?</string>
+    <string name="delete_text">Huawei cancels this app\'s access and deletes the data the app created. Workouts from the watch and from Huawei Health stay. This cannot be undone.</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+</resources>

@@ -1,0 +1,9 @@
+sdk.dir=/Users/you/Library/Android/sdk
+
+healthkit.clientId=
+backend.baseUrl=
+healthkit.deepLink=healthkitdemo://oauth/callback
+healthkit.schemeSecret=
+healthkit.authMethod=WEB_OAUTH
+healthkit.historyWindow=NONE
+healthkit.apiHost=

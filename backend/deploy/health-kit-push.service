@@ -1,0 +1,14 @@
+[Unit]
+Description=Health Kit Push
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/health-kit-push
+ExecStart=/usr/bin/node --env-file=/opt/health-kit-push/.env /opt/health-kit-push/src/index.js
+Restart=always
+RestartSec=5
+Environment=NODE_ENV=production
+
+[Install]
+WantedBy=multi-user.target
